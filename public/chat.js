@@ -1,5 +1,5 @@
 // Make connection
-var socket = io.connect(process.env.SOCKET_URL);
+var socket = io.connect("https://krischat.herokuapp.com);
 
 // Query DOM
 var message = document.getElementById("message"),
